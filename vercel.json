@@ -1,13 +1,6 @@
 {
     "$schema": "https://openapi.vercel.sh/vercel.json",
-
     "functions": {
-        ".vercel/output/functions/__nitro.func/index.mjs": {
-            "runtime": "@godsreveal/vercel-bun@0.2.4"
-        }
-    },
-
-    "cleanUrls": true,
-
-    "framework": "nuxtjs"
+        "api/index.ts": { "runtime": "@godsreveal/vercel-bun@0.2.4" }
+    }
 }
